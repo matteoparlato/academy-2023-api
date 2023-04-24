@@ -1,0 +1,830 @@
+{
+	"info": {
+		"_postman_id": "a7515f7a-761c-49df-bfdf-413480df850e",
+		"name": "Academy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26473540"
+	},
+	"item": [
+		{
+			"name": "brands (API entitySet)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brandCampaigns (API entitySet)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brandCampaigns",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brandCampaigns"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API entitySet $filter)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands?$filter=code eq 'Yamaha'",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$filter",
+							"value": "code eq 'Yamaha'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API entitySet $orderby)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands?$orderby=code asc",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "code asc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API entitySet $top)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands?$top=2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$top",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API entitySet $skip)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands?$skip=2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$skip",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API entitySet $count)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands?$count=true",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$count",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API entitySet $select)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands?$select=code",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "code"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API entitySet $metadata)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/$metadata#companies({{companyId}})/brands",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"$metadata"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					],
+					"hash": "companies({{companyId}})/brands"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API entity)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands(0f51f98a-7ce2-ed11-a7d7-00155d10664c)",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands(0f51f98a-7ce2-ed11-a7d7-00155d10664c)"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API POST)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"BENELLI\",\r\n    \"name\": \"Benelli\",\r\n    \"imageUrl\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brandCampaigns (API POST)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"brandCode\": \"HONDA\",\r\n    \"startingDate\": \"2023-04-24\",\r\n    \"endingDate\": \"2025-04-30\",\r\n    \"thresholdAmount\": 10,\r\n    \"discountPercentage\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brandCampaigns",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brandCampaigns"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API PATCH)",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "If-Match",
+						"value": "*",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"BENELLI\",\r\n    \"name\": \"Benelli era italiana\",\r\n    \"imageUrl\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands(4e35cbe9-a2e2-ed11-a7da-00155d00118e)",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands(4e35cbe9-a2e2-ed11-a7da-00155d00118e)"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brandCampaigns (API PATCH)",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "If-Match",
+						"value": "*",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"brandCode\": \"HONDA\",\r\n    \"startingDate\": \"2023-04-24\",\r\n    \"endingDate\": \"2025-04-30\",\r\n    \"thresholdAmount\": 10,\r\n    \"discountPercentage\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brandCampaigns(4e35cbe9-a2e2-ed11-a7da-00155d00118e)",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brandCampaigns(4e35cbe9-a2e2-ed11-a7da-00155d00118e)"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (API DELETE)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brands(bace70b4-a2e2-ed11-a7da-00155d00118e)",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brands(bace70b4-a2e2-ed11-a7da-00155d00118e)"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brandCampaigns (API DELETE)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/eos/academy/v1.0/companies({{companyId}})/brandCampaigns(bace70b4-a2e2-ed11-a7da-00155d00118e)",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"eos",
+						"academy",
+						"v1.0",
+						"companies({{companyId}})",
+						"brandCampaigns(bace70b4-a2e2-ed11-a7da-00155d00118e)"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (OData)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/ODataV4/Company('{{companyId}}')/brands",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ODataV4",
+						"Company('{{companyId}}')",
+						"brands"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands (OData $metadata)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/ODataV4/$metadata#brands",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ODataV4",
+						"$metadata"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$orderby",
+							"value": "<string>",
+							"disabled": true
+						},
+						{
+							"key": "$select",
+							"value": "<string>",
+							"disabled": true
+						}
+					],
+					"hash": "brands"
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "ntlm",
+		"ntlm": [
+			{
+				"key": "password",
+				"value": "YamahaMT07",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "mparlato",
+				"type": "string"
+			},
+			{
+				"key": "domain",
+				"value": "eos",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://academy.eos-solutions.it:7048/EOS-ACADEMY-COMMON",
+			"type": "string"
+		},
+		{
+			"key": "companyId",
+			"value": "98518c4e-7ae2-ed11-a7d7-00155d10664c",
+			"type": "string"
+		}
+	]
+}
