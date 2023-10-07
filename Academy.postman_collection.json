@@ -427,7 +427,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"code\": \"BENELLI\",\r\n    \"name\": \"Benelli\",\r\n    \"imageUrl\": \"\"\r\n}",
+					"raw": "{\r\n    \"code\": \"BENELLI\",\r\n    \"name\": \"Benelli\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -529,7 +529,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"code\": \"BENELLI\",\r\n    \"name\": \"Benelli era italiana\",\r\n    \"imageUrl\": \"\"\r\n}",
+					"raw": "{\r\n    \"code\": \"BENELLI\",\r\n    \"name\": \"Benelli era italiana\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -776,21 +776,16 @@
 		}
 	],
 	"auth": {
-		"type": "ntlm",
-		"ntlm": [
+		"type": "basic",
+		"basic": [
 			{
 				"key": "password",
-				"value": "YamahaMT07",
+				"value": "",
 				"type": "string"
 			},
 			{
 				"key": "username",
-				"value": "mparlato",
-				"type": "string"
-			},
-			{
-				"key": "domain",
-				"value": "eos",
+				"value": "POWER-MES",
 				"type": "string"
 			}
 		]
@@ -818,12 +813,12 @@
 	"variable": [
 		{
 			"key": "baseUrl",
-			"value": "https://academy.eos-solutions.it:7048/EOS-ACADEMY-COMMON",
+			"value": "https://eosmes.eos-solutions.it:9048/eosmes",
 			"type": "string"
 		},
 		{
 			"key": "companyId",
-			"value": "98518c4e-7ae2-ed11-a7d7-00155d10664c",
+			"value": "e9095f4f-6f84-ea11-a81d-000d3a20dc45",
 			"type": "string"
 		}
 	]
